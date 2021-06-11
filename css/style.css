@@ -9,6 +9,7 @@ font-family: 'Noto Sans', sans-serif;
 font-size: 14px;
 line-height: 19px;
 font-weight: 400px;
+color: #303030;
 }
 
 a {
@@ -72,6 +73,7 @@ font-size: 64px;
 .header__button{
     margin-top: 50px;
     margin-bottom: auto;
+    align-self: center;
 }
 
 .button__path{
@@ -86,7 +88,8 @@ fill: #A9A32A;
 font-size: 18px;
 line-height: 25px;
 display: inline-block;
-transform: translate(-57px, -17px);   
+transform: translateY(-17px);
+margin-left: -57px;   
 }
 
 .social{
@@ -127,6 +130,63 @@ transform: translate(-57px, -17px);
     object-fit: cover;
 }
 
-.service__box-text{
-
+.info{
+    margin-bottom: 150px;
 }
+
+.info__inner{
+    display: flex;
+}
+
+.info__box{
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+
+/* .info__content{
+    flex-basis: 600px;
+}
+
+.info__content-text{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 17px;
+}
+.info-tabs{
+margin-bottom: 100px;
+}
+
+.info-tabs__items{
+margin-bottom: 120px;
+}
+
+.info-tabs__item{
+font-size: 18px;
+line-height: 25px;
+margin-right: 40px;
+}
+
+.info-tabs__item--active{
+border-bottom: 1px solid #303030;
+}
+
+.info-tabs__content{
+    display: none;
+}
+.info-tabs__content--active{
+    display: block;
+}
+
+.info-slider{
+    min-width: 510px;
+}
+.info-slider__img{
+margin-right: 40px;
+float:left;
+}
+
+.info-slider__text{
+padding-bottom: 15px;
+max-width: 235px;
+} */
